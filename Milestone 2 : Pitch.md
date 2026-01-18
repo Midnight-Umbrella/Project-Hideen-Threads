@@ -5,7 +5,7 @@
 
 ## Pitch Slides
 - Google Slides: https://docs.google.com/presentation/d/1uiaHQJHImGvRQK5JI2zT7GJvT2LJCYacHPyOwbbwS54/edit?usp=sharing
-- Canvas submission: (submit the same link)
+- Canvas submission: https://canvas.ualberta.ca/courses/32005/assignments/722722
   
 ---
 
