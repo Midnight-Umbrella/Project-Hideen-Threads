@@ -31,6 +31,16 @@ You play as the missing/deceased friend’s **roommate / close friend**, acting 
 - **Physical Setting:** friend’s room/college dorm (and related indoor areas)
 - **Digital Setting:** social media pages + computer/phone interface
 
+## Characters
+- **Protagonist (You):** roommate/friend investigator, motivated by truth + grief
+- **The Victim (Friend):** appears through posts/DMs/photos; key to mystery
+- **Suspects:** 2–3 key people (classmate, coworker, ex, etc.)
+- **Name of Character:** Harper, and her friend's name is Vera.  
+## Settings (Planned)
+- Dorm Room: primary evidence search space (objects, notes, devices)
+- Hallway / Common Area: patrol pressure / CCTV terminals
+- Social App Interface: feed, profile, DMs, group chats, timestamps
+
 ---
 
 ## 5) Core Objective
