@@ -5,8 +5,8 @@
 | # | Milestone 
 |---|-----------|
 | 1 | Bootstrap |
-| 2 | Materials |
-| 3 | Player Movement |
+| 2 | Player Movement |
+| 3 | Materials |
 | 4 | Building |
 | 5 | Structures |
 | 6 | Interaction |
