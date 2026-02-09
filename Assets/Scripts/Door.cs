@@ -6,6 +6,7 @@ public class Door : MonoBehaviour
 {
     private SpriteRenderer sr;
     private Collider2D cd;
+    [SerializeField] private ClueDefinition clue;
     
     
     // Start is called before the first frame update
@@ -17,7 +18,7 @@ public class Door : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") )
         {
             sr.enabled = false;
             cd.enabled = false;
