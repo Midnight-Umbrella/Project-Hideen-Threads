@@ -20,7 +20,6 @@ public class VolumeWidget : MonoBehaviour
         // Initialize UI Display 
         SetUI(VolumeBus.Get());
 
-        // 监听UI变化 -> 写入全局
         if (slider != null)
             slider.onValueChanged.AddListener(OnSliderChanged);
 
