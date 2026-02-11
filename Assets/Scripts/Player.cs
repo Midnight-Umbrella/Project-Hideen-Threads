@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     public AudioSource playerSound;
     public AudioClip playerFootstep;
+    public float footstepInterval = 0.3f;
+    private float footstepTimer = 0f;
 
     // Start is called before the first frame update
     void Start()

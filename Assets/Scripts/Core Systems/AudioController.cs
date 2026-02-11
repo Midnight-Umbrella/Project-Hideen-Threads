@@ -19,7 +19,7 @@ public class AudioController : MonoBehaviour
             return;
         }
 
-        Instance = this;
+        _instance = this;
         DontDestroyOnLoad(gameObject);
     }
 
