@@ -6,7 +6,7 @@ public class VolumeWidget : MonoBehaviour
 {
     [Header("UI Refs")]
     [SerializeField] private Slider slider;
-    [SerializeField] private TMP_Text valueText; // 可空
+    [SerializeField] private TMP_Text valueText; 
 
     private bool _ignore;
 
