@@ -4,6 +4,8 @@ public class CluePickup : MonoBehaviour
 {
     [Header("Clue")]
     [SerializeField] private ClueDefinition clue;
+    [SerializeField] private DialogueData dialogue;
+    
 
     [Header("Interaction")]
     [SerializeField] private KeyCode interactKey = KeyCode.F;
@@ -62,6 +64,11 @@ public class CluePickup : MonoBehaviour
             _picked = true;
             CluePromptUI.Instance?.Show($"Collected: {clue.title}");
             Invoke(nameof(HidePrompt), 0.8f);
+
+            if(dialogue) 
+            {
+                DialogueManager.Instance.StartDialogue(dialogue);
+            }
 
             if (destroyOnPickup) Destroy(gameObject);
             else gameObject.SetActive(false);

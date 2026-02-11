@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class DialogueTest : MonoBehaviour
 {
@@ -24,4 +24,4 @@ public class DialogueTest : MonoBehaviour
             Debug.LogError("DialogueUI not found in scene!");
         }
     }
-}
+}*/

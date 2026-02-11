@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,4 +18,4 @@ public class Interactable : MonoBehaviour
             Debug.LogWarning("DialogueTrigger reference is not set on " + gameObject.name);
         }
     }
-}
+}*/

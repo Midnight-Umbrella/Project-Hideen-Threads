@@ -4,71 +4,22 @@ using TMPro; // TextMeshPro support
 
 public class DialogueUI : MonoBehaviour
 {
-    [Header("Assign your Dialogue Text here")]
-    public TMP_Text dialogueText; // Drag the TextMeshProUGUI text here
+    [SerializeField] private GameObject dialoguePanel;
+    [SerializeField] private TMP_Text dialogueText;
 
-    [Header("Optional: Dialogue Panel")]
-    public GameObject dialoguePanel; // Drag the Dialogue Panel here
-
-    private string[] lines;
-    private int currentLine = 0;
-    private bool isActive = false;
-
-    void Start()
+    public void Show()
     {
-        if (dialoguePanel != null)
-            dialoguePanel.SetActive(false);
+        dialoguePanel.SetActive(true);
     }
 
-    void Update()
+    public void Hide()
     {
-        if (isActive && Input.GetKeyDown(KeyCode.Space))
-        {
-            AdvanceDialogue();
-        }
+        dialoguePanel.SetActive(false);
+        dialogueText.text = "";
     }
 
-    public void StartDialogue(string[] dialogueLines)
+    public void SetText(string text)
     {
-        if (dialogueLines == null || dialogueLines.Length == 0) return;
-
-        lines = dialogueLines;
-        currentLine = 0;
-        isActive = true;
-
-        if (dialoguePanel != null)
-            dialoguePanel.SetActive(true);
-
-        ShowCurrentLine();
-    }
-
-    private void ShowCurrentLine()
-    {
-        if (dialogueText != null && currentLine < lines.Length)
-        {
-            dialogueText.text = lines[currentLine];
-        }
-    }
-
-    private void AdvanceDialogue()
-    {
-        currentLine++;
-        if (currentLine >= lines.Length)
-        {
-            EndDialogue();
-        }
-        else
-        {
-            ShowCurrentLine();
-        }
-    }
-
-    public void EndDialogue()
-    {
-        isActive = false;
-        if (dialoguePanel != null)
-            dialoguePanel.SetActive(false);
-        if (dialogueText != null)
-            dialogueText.text = "";
+        dialogueText.text = text;
     }
 }
