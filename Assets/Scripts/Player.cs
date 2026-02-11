@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
             {
                 //PlayOneShot(playerFootstep) is better than Play()
                 playerSound.PlayOneShot(playerFootstep);
-                footstepTimer = footstepInterval
+                footstepTimer = footstepInterval;
             }
         }
         else
