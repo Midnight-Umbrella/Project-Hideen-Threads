@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb94c8035900c477a960f0bf9ca17557, type: 3}
   m_Name: Nothing
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - '"Nothing"'

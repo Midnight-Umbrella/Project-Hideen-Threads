@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb94c8035900c477a960f0bf9ca17557, type: 3}
   m_Name: PhoneDialogue
   m_EditorClassIdentifier: 
-  lines: []
+  lines:
+  - '"Vera''s phone!"'
+  - '"I wonder if It can tell me where she is?" (Press P to open phone)'
