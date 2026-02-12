@@ -3,6 +3,7 @@ using UnityEngine;
 public class PhoneUIController : MonoBehaviour
 {
     public GameObject phoneUI; // Drag PhoneUI here in Inspector
+    private bool PhoneIsFound = false;
     private bool isPhoneOpen = false;
 
     void Update()
@@ -10,7 +11,8 @@ public class PhoneUIController : MonoBehaviour
         // Press 'P' to toggle phone
         if (Input.GetKeyDown(KeyCode.P))
         {
-            TogglePhone();
+            if (PhoneIsFound)
+                TogglePhone();
         }
     }
 
@@ -18,5 +20,11 @@ public class PhoneUIController : MonoBehaviour
     {
         isPhoneOpen = !isPhoneOpen;
         phoneUI.SetActive(isPhoneOpen);
+    }
+
+    // Trigger this when clue 2 is picked up
+    void FindPhone()
+    {
+        PhoneIsFound = true;
     }
 }
