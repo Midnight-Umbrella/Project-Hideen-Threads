@@ -1776,10 +1776,10 @@ RectTransform:
   - {fileID: 5868471212841562724}
   m_Father: {fileID: 4839826145333533543}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 322.5, y: -668.1944}
+  m_SizeDelta: {x: 150, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2131863926959899862
 CanvasRenderer:
@@ -1868,7 +1868,7 @@ MonoBehaviour:
         m_MethodName: OpenApp
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 184243061346425092}
+          m_ObjectArgument: {fileID: 7269399442981609895}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2005,10 +2005,10 @@ RectTransform:
   - {fileID: 3218722369317927013}
   m_Father: {fileID: 4839826145333533543}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 157.5, y: -783.1944}
+  m_SizeDelta: {x: 150, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1509574400771316323
 CanvasRenderer:
@@ -2933,10 +2933,10 @@ RectTransform:
   - {fileID: 8527732131168260973}
   m_Father: {fileID: 4839826145333533543}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 322.5, y: -783.1944}
+  m_SizeDelta: {x: 150, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1307989056665441862
 CanvasRenderer:
@@ -3025,7 +3025,7 @@ MonoBehaviour:
         m_MethodName: OpenApp
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 184243061346425092}
+          m_ObjectArgument: {fileID: 4783170451426559105}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3691,10 +3691,10 @@ RectTransform:
   - {fileID: 1886122531445819871}
   m_Father: {fileID: 4839826145333533543}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 322.5, y: -553.1944}
+  m_SizeDelta: {x: 150, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3129929595517528921
 CanvasRenderer:
@@ -4736,10 +4736,10 @@ RectTransform:
   - {fileID: 6206072713855187921}
   m_Father: {fileID: 4839826145333533543}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 157.5, y: -553.1944}
+  m_SizeDelta: {x: 150, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8316114686250752907
 CanvasRenderer:
@@ -4926,7 +4926,7 @@ GameObject:
   - component: {fileID: 5429705157914770740}
   - component: {fileID: 1773124875723369139}
   m_Layer: 5
-  m_Name: InstaApp
+  m_Name: InstaZamApp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5085,7 +5085,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8160365460527233444
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9364,10 +9364,10 @@ RectTransform:
   - {fileID: 1276369006008354434}
   m_Father: {fileID: 4839826145333533543}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 157.5, y: -668.1944}
+  m_SizeDelta: {x: 150, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8011499602445014321
 CanvasRenderer:
@@ -9456,7 +9456,7 @@ MonoBehaviour:
         m_MethodName: OpenApp
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 184243061346425092}
+          m_ObjectArgument: {fileID: 8250209434739643856}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
